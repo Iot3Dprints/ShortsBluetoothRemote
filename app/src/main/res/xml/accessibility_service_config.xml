@@ -1,6 +1,5 @@
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
-    android:description="Allows Bluetooth media buttons to swipe between YouTube Shorts."
-    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowsChanged"
+android:description="@string/accessibility_service_description"    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowsChanged"
     android:accessibilityFeedbackType="feedbackGeneric"
     android:notificationTimeout="100"
     android:canPerformGestures="true"
